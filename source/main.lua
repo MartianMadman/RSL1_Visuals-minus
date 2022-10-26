@@ -12,6 +12,8 @@ local function SetGraphicsSettings()
 	rfg.Hdr.BloomAlternate = false
 	rfg.Hdr.BloomNew = false
 	rfg.Lighting.AmbientSpecularEnabled = false
+	rfg.Lighting.IndirectLightEnabled = false
+	rfg.Lighting.GlassReflectionEnabled = false
 	rfg.SetFarClip(300)
 	rfg.SetHighLodFarClip(150)
 end
